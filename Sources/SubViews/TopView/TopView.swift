@@ -70,9 +70,7 @@ class TopView: UIView {
         hideSizingView()
         setupCollections()
         setCollectionsLayout()
-    }
-  
-    private func addSubviews() {
+
         addSubview(collectionViewTop)
         addSubview(collectionViewMiddleImage)
         addSubview(collectionViewMiddleText)
